@@ -27,6 +27,6 @@ function servePizza(pizza) {
 }
 
 greetCustomer();
-getPizzaOrder("large", "thick", "chicken", "mushrooms");
-preparePizza(getPizzaOrder);
-servePizza (preparePizza);
+let customerOrder = getPizzaOrder("large", "thick", "chicken", "mushrooms");
+let cookedPizza = preparePizza(customerOrder);
+servePizza (cookedPizza);
