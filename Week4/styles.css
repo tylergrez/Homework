@@ -1,0 +1,26 @@
+li.favorites {
+  color: orange;
+  padding: 25px;
+  border: 2px dotted white;
+}
+
+main {
+  font-family: arial;
+  margin: 50px;
+}
+
+ol#orderedList {
+  font-style: oblique;
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 50px;
+}
+
+div,
+.div1 {
+  color:blue
+}
+
+* {
+  color-scheme: dark;
+}

@@ -1,4 +1,5 @@
 const pizzaToppings = ["Onions", "Beef Pepperoni", "Mushrooms", "Chicken"]
+
 function greetCustomer() {
   let message = 'Welcome to Tyler\'s Pizza Place. The toppings we offer are: ';
 for (let topping of pizzaToppings) {
@@ -25,8 +26,13 @@ function servePizza(pizza) {
   console.log(`Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with ${pizza.toppings}. Enjoy!`)
   return pizza
 }
-
 greetCustomer();
-let customerOrder = getPizzaOrder("large", "thick", "chicken", "mushrooms");
-let cookedPizza = preparePizza(customerOrder);
-servePizza (cookedPizza);
+
+// getPizzaOrder("large", "thick", "chicken", "mushrooms");
+// preparePizza();
+// servePizza();
+
+// let customerOrder = getPizzaOrder("large", "thick", "chicken", "mushrooms");
+// let cookedPizza = preparePizza(customerOrder);
+// servePizza (cookedPizza);
+servePizza (preparePizza(getPizzaOrder("large", "thick", "chicken", "mushrooms")));
