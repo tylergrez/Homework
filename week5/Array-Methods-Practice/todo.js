@@ -1213,7 +1213,7 @@ let toDo = [
 let user9ToDo = toDo.filter(task => task.userId === 9);
 console.log(user9ToDo);
 console.log("BREAK");
-let user9Incomplete = toDo.filter(task => task.userId === 9 && task.completed === false);
+let user9Incomplete = toDo.filter(task => task.userId === 9 && task.completed === false).length;
 console.log(user9Incomplete);
 
 // bonus

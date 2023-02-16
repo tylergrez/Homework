@@ -604,14 +604,14 @@ let posts = [
 let user5Posts = posts.filter(post => post.userId === 5);
 console.log(user5Posts);
 
-let title = posts.filter(post => post.title);
-let body = post.filter(post => post.body);
-let titleBody = [title, body]
+// let title = posts.filter(post => post.title);
+// let body = post.filter(post => post.body);
+// let titleBody = [title, body]
 
-// let titleBody = posts.map(post => {
-//   let title = post.title;
-//   let body = post.body;
-//   return [title,body]
-// });
+let titleBody = posts.map(post => {
+  let title = post.title;
+  let body = post.body;
+  return [title,body]
+});
 
 console.log(titleBody);

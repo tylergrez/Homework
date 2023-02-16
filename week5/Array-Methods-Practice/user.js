@@ -231,9 +231,9 @@ let users = [
   }
 ];
 
-users.forEach(user => console.log(user.phone));
+users.map(user => console.log(user.phone));
 const webEmail = [];
-users.forEach(user => {
+users.map(user => {
     let email = user.email;
     let website = user.website;
     webEmail.push([email, website]);
