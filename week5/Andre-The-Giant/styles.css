@@ -11,10 +11,6 @@ h1 {
   font-size: 50px;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
-}
 
 div {
   border: 2px solid burlywood;
@@ -25,22 +21,30 @@ div {
   float: left;
 }
 
+#pro {
+  width: auto;
+}
+
+
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 #bio {
   float: center;
 }
+
 #bio > li {
   padding: 1px;
-}
-
-#pro {
-  width: auto;
 }
 
 li {
   list-style: none;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 412px) {
    *{
 background-color: blue; }
   }
